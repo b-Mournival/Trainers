@@ -21,37 +21,38 @@ header .container {
 }
 
 header form {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    width: 208px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #cbcbcb;
 }
 
 header form input{
-    display: inline-block;
-    font-family: Metropolis;
-    font-size: 14px;
-    text-transform: uppercase;
-    line-height: 42px;
-    background-color: #ebebeb;
-    color: #959595;
-    border-radius: 4px 0 0 4px;
+    background-color: transparent;
     border: none;
-    min-width: 170px;
-    padding-left: 15px;
+    line-height: 42px;
+    display: inline-block;
+    width: 75%;
+    padding-left: 7px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Metropolis;
+}
+
+header form input:focus,
+header form button:focus{
+    border: none;
+    outline: none;
 }
 
 header form button {
-    box-sizing: border-box;
-    padding-right: 12px;
-    line-height: 42px;
-    border-radius: 0 4px 4px 0;
+    display: inline-block;
     border: none;
-    font-size: 17px;
-    background-color: #ebebeb;
-}
-
-header form i {
+    background-color: transparent;
+    width: 19%;
+    padding-top: 10px;
     color: red;
+    font-size: 18px;
 }
 
 header .btn {
