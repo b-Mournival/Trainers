@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding-top: 25px;
+    padding-bottom: 13px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+        /*example*/
+/*header .btn {*/
+/*    display: inline-block;*/
+/*    line-height: 40px;*/
+/*    background-color: silver;*/
+/*    text-align: center;*/
+/*    color: white;*/
+/*    font-size: 20px;*/
+/*    border-radius: 4px;*/
+/*    min-width: 100px;*/
+/*}*/
+
+/*+fontawo :before*/
+
+
+
+/*header .btn.grey {*/
+/*    background-color: grey;*/
+/*}*/
+
