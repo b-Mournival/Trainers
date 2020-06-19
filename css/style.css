@@ -20,6 +20,12 @@ header .container {
     align-items: center;
 }
 
+.border {
+    padding-bottom: 23px;
+    border-bottom: 2px solid #464646;
+    margin-bottom: 23px;
+}
+
 header form {
     width: 208px;
     height: 42px;
@@ -78,6 +84,61 @@ header .btn.red {
 }
 header .btn i {
     margin-right: 5px;
+}
+
+header .container:last-of-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header ul li a {
+    font-family: "Bebas Neue";
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding-left: 5px;
+    /*padding-right: 5px;*/
+}
+
+header ul li a:hover, header ul li.active a {
+    color: #b1b1b1;
+    transition: 0.3s;
+}
+
+header ul li a:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: transparent;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+header ul li:hover a:after,
+header ul li.active a:after {
+    background-color: #ff0000;
+}
+
+header .social a {
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    background-color: #fa090a;
+    color: black;
+    font-size: 30px;
+    text-align: center;
 }
 
 
