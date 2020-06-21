@@ -93,9 +93,7 @@ header .container:last-of-type {
 }
 
 header ul {
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*flex-wrap: nowrap;*/
+    display: flex;
     list-style: none;
 }
 
